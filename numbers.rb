@@ -1,10 +1,12 @@
 
-def add()
-	x = 5 
+def add(fnum )
+	x = fnum
 end
-def add2()
-	y = 3
+
+def add2(secnum)
+
+	y = secnum
 end
 
 
-puts add + add2
+puts add(5) + add2(2)
